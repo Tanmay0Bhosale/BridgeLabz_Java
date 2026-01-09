@@ -1,4 +1,4 @@
-package ProgrammingElements;
+package ProgrammingElements.Level1;
 public class ProfitCalculation {
     public static void main(String[] args) {
 

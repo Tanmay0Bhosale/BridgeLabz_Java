@@ -1,4 +1,4 @@
-package ProgrammingElements;
+package ProgrammingElements.Level1;
 
 public class EarthVolume {
     public static void main(String[] args) {
