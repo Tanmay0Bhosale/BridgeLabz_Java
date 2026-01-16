@@ -1,37 +1,24 @@
 # Daily Project Logs BridgeLabz Training
 
-# 15 December Monday,2025
-What I have done: Whatsapp Problems,Level 1
-
-What I will do next: Level 2, Github problems
-
-Issues faced: git commands and github
-
-# 16 December Tuesday,2025
-What I have done: Level 2, Github problems
-
-What I will do next: control flow statement lab practices and cherrypick problem
-
-Issues faced: using visual studio and getting familiar with it
-
-# 17 Decembet Wednesday,2025
-What I have done: Control Flow all levels Completed/Array All Levels
-
-What i will do next: Change the git folder structure and branch structure
-
-Issues Faced: git problems while cherry-pick command 
-# 18 December Thursday,2025
-
-What I have done: Review Done Today / Methods Level 1(1st question)/Changed the Git Structure
-
-What i will do next: Methods and Strings All Programs
-
-Issues Faced: git command (Remove the local repository completely from your system.) and delete (git rm -rf .) 
-# 19 December Friday,2025
-
-What I have done: Completed Methods All levels
-
-What I will do next: Complete Strings and snake and ladder problem
-
-Issues faced: While solving the methods level 3  hard questions were there 
-
+-08-Dec-2025 (Mon): Installed IntelliJ IDEA and Eclipse IDE.
+-09-Dec-2025 (Tue): Learned Java basics.
+-10-Dec-2025 (Wed): Solved basic Java programs.
+-11-Dec-2025 (Thu): Introduced to Git commands.
+-12-Dec-2025 (Fri): Installed Git Bash and .NET SDK; completed GitHub setup.
+-13-Dec-2025 (Sat): Learned C# fundamentals.
+-15-Dec-2025 (Mon): Completed Programming Elements (Level 1 & 2).
+-16-Dec-2025 (Tue): Learned Control Flow; completed Level 1 & 2.
+-17-Dec-2025 (Wed): Performed Git tasks; completed Control Flow Level 3 programs.
+-18-Dec-2025 (Thu): Practiced Git merge and rebase; completed Arrays Level 1.
+-19-Dec-2025 (Fri): Revised core C# and .NET concepts.
+-20-Dec-2025 (Sat): Practiced Git commands; completed Arrays Level 2 and Methods Level 1 & 2.
+-22-Dec-2025 (Mon): Completed advanced Git practice and reviewed previous programs.
+-23-Dec-2025 (Tue): Practiced and revised completed programming modules.
+-08-Jan-2026 (Thu): Revised Java basics including variables, data types, operators, and I/O.
+-09-Jan-2026 (Fri): Continued Java training with environment walkthrough and backend overview.
+-10-Jan-2026 (Sat): Practiced Java programs; created and organized Java repository.
+-12-Jan-2026 (Mon): Completed Programming Elements Level 1 & 2.
+-13-Jan-2026 (Tue): Learned Control Flow concepts and problem-solving techniques.
+-14-Jan-2026 (Wed): Completed Control Flow Levels 1–3; committed changes to feature/CoreProgramming.
+-15-Jan-2026 (Thu): Practiced Arrays Level 1 & 2; completed Strings Level 1 & 2.
+-16-Jan-2026 (Fri): Completed Strings Level 3 and Methods; pushed all programs to GitHub.
