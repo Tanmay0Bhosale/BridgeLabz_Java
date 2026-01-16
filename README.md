@@ -1,4 +1,4 @@
-# BridgeLabz_Java_CG
+# Daily Project Logs BridgeLabz Training
 
 # 15 December Monday,2025
 What I have done: Whatsapp Problems,Level 1
