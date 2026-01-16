@@ -9,6 +9,7 @@ public class SumUntilZero {
         double total = 0.0;
         double value;
 
+        // While loop is used to read numbers from the user and add them to the total until zero is entered.
         while ((value = input.nextDouble()) != 0) {
             total += value;
         }

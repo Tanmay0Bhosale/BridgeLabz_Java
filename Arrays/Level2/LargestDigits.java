@@ -11,6 +11,7 @@ public class LargestDigits {
         int[] digits = new int[maxDigit];
         int index = 0;
 
+        // While loop is used to extract each digit from the number and store them in an array, with dynamic resizing if needed.
         while (number != 0) {
             if (index == maxDigit) {
                 maxDigit += 10;
@@ -24,6 +25,7 @@ public class LargestDigits {
 
         int largest = 0, second = 0;
 
+        // For loop is used to iterate through the digits array to find the largest and second largest digits.
         for (int i = 0; i < index; i++) {
             if (digits[i] > largest) {
                 second = largest;

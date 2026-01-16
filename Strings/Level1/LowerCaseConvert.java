@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class LowerCaseConvert {
 
+    // This method toLowerUsingCharAt is used to convert a string to lowercase manually
     static String toLowerUsingCharAt(String s) {
         String result = "";
+        // For loop is used to iterate through each character and convert uppercase to lowercase
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (c >= 'A' && c <= 'Z')
@@ -16,8 +18,10 @@ public class LowerCaseConvert {
         return result;
     }
 
+    // This method compare is used to compare two strings for equality
     static boolean compare(String a, String b) {
         if (a.length() != b.length()) return false;
+        // For loop is used to check each character for equality
         for (int i = 0; i < a.length(); i++)
             if (a.charAt(i) != b.charAt(i)) return false;
         return true;

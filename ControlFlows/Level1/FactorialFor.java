@@ -11,6 +11,7 @@ public class FactorialFor {
         if (number > 0) {
             int factorial = 1;
 
+            // For loop is used to calculate the factorial by multiplying the current factorial value with each integer from 1 to the input number.
             for (int i = 1; i <= number; i++) {
                 factorial *= i;
             }

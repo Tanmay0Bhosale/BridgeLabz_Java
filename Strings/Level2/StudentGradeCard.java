@@ -4,10 +4,13 @@ import java.util.Random;
 
 public class StudentGradeCard {
 
+    // This method generatePCM is used to generate random PCM marks for students
     static int[][] generatePCM(int students) {
         Random r = new Random();
         int[][] pcm = new int[students][3];
+        // For loop is used to iterate through each student
         for (int i = 0; i < students; i++)
+            // For loop is used to generate marks for Physics, Chemistry, Maths
             for (int j = 0; j < 3; j++)
                 pcm[i][j] = r.nextInt(90) + 10; // 2-digit
         return pcm;

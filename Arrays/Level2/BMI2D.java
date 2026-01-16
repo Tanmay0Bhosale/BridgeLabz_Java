@@ -10,6 +10,7 @@ public class BMI2D {
         double[][] data = new double[n][3];
         String[] status = new String[n];
 
+        // For loop is used to read weight and height for each of n persons, calculate their BMI, and determine their weight status based on BMI categories.
         for (int i = 0; i < n; i++) {
             data[i][0] = sc.nextDouble(); // weight
             data[i][1] = sc.nextDouble(); // height
@@ -22,6 +23,7 @@ public class BMI2D {
             else status[i] = "Obese";
         }
 
+        // For loop is used to print the weight, height, BMI, and status for each person.
         for (int i = 0; i < n; i++)
             System.out.println(data[i][0] + " " + data[i][1] + " " + data[i][2] + " " + status[i]);
     }

@@ -11,6 +11,7 @@ public class ArmstrongNumber {
         int original = number;
         int sum = 0;
 
+        // While loop is used to extract each digit from the original number, calculate the cube of each digit, sum them up, and divide the original by 10 each time.
         while (original != 0) {
             int digit = original % 10;
             sum += digit * digit * digit;

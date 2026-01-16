@@ -9,6 +9,7 @@ public class AbundantNumber {
         int number = sc.nextInt();
         int sum = 0;
 
+        // For loop is used to iterate from 1 to number-1, find all proper divisors of the number, and sum them up.
         for (int i = 1; i < number; i++) {
             if (number % i == 0)
                 sum += i;

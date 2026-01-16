@@ -1,6 +1,7 @@
 package JavaMehodsPractices.Level1;
 
 public class SpringSeason {
+    // This method isSpring is used to check if the given month and day fall within the spring season (March 20 to June 20).
     static boolean isSpring(int month, int day) {
         return (month == 3 && day >= 20) ||
                 (month == 4) ||

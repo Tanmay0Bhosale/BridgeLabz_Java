@@ -15,6 +15,7 @@ public class StudentGrade {
         double[] percentage = new double[n];
         char[] grade = new char[n];
 
+        // For loop is used to read physics, chemistry, and maths marks for each student, validate inputs, calculate percentage, and assign grade based on percentage.
         for (int i = 0; i < n; i++) {
             System.out.println("Student " + (i + 1));
 
@@ -40,6 +41,7 @@ public class StudentGrade {
             else grade[i] = 'R';
         }
 
+        // For loop is used to print the percentage and grade for each student.
         for (int i = 0; i < n; i++) {
             System.out.println("Student " + (i + 1) +
                     " Percentage: " + percentage[i] +

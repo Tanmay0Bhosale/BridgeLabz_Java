@@ -13,6 +13,7 @@ public class EmployeeBonus {
 
         double totalBonus = 0, totalOld = 0, totalNew = 0;
 
+        // For loop is used to read salary and years of service for 10 employees, validate inputs, calculate bonus based on years of service, compute new salary, and accumulate totals for bonus, old salary, and new salary.
         for (int i = 0; i < 10; i++) {
             System.out.print("Salary: ");
             salary[i] = sc.nextDouble();

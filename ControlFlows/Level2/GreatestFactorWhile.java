@@ -10,6 +10,7 @@ public class GreatestFactorWhile {
         int greatestFactor = 1;
         int counter = number - 1;
 
+        // While loop is used to iterate from number-1 down to 1, find the first (greatest) factor of the number, and break once found, decrementing counter each time.
         while (counter >= 1) {
             if (number % counter == 0) {
                 greatestFactor = counter;

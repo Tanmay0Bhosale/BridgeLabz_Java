@@ -3,6 +3,7 @@ package JavaMehodsPractices.Level1;
 import java.util.Scanner;
 
 public class SmallestLargest {
+    // This method findSmallestAndLargest is used to find the smallest and largest among three integers.
     public static int[] findSmallestAndLargest(int a, int b, int c) {
         int smallest = Math.min(a, Math.min(b, c));
         int largest = Math.max(a, Math.max(b, c));

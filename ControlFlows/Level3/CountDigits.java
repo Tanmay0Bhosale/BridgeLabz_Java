@@ -9,6 +9,7 @@ public class CountDigits {
         int number = sc.nextInt();
         int count = 0;
 
+        // While loop is used to count the number of digits by repeatedly dividing the number by 10 until it becomes 0, incrementing the count each time.
         while (number != 0) {
             number /= 10;
             count++;

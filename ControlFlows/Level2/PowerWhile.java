@@ -12,6 +12,7 @@ public class PowerWhile {
         int result = 1;
         int counter = 0;
 
+        // While loop is used to calculate the power by multiplying the result by the base number until the counter reaches the exponent, incrementing counter each time.
         while (counter < power) {
             result *= number;
             counter++;

@@ -14,6 +14,7 @@ public class BMIArray {
         double[] bmi = new double[n];
         String[] status = new String[n];
 
+        // For loop is used to read weight and height for each person, calculate their BMI, and assign a status based on BMI ranges.
         for (int i = 0; i < n; i++) {
             System.out.print("Weight (kg): ");
             weight[i] = sc.nextDouble();
@@ -29,6 +30,7 @@ public class BMIArray {
             else status[i] = "Obese";
         }
 
+        // For loop is used to print the weight, height, BMI, and status for each person.
         for (int i = 0; i < n; i++) {
             System.out.println(weight[i] + " " + height[i] + " BMI=" + bmi[i] + " " + status[i]);
         }

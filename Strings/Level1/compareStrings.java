@@ -3,11 +3,13 @@ package Strings.Level1;
 import java.util.Scanner;
 
 public class compareStrings {
+    // This method compare is used to compare two strings for equality manually
     static boolean compare(String one,String two){
         if(one.length()!=two.length()){
             return false;
         }
 
+        // For loop is used to check each character in the strings for equality
         for(int i=0;i<one.length();i++){
             if(one.charAt(i)!=two.charAt(i)){
                 return false;

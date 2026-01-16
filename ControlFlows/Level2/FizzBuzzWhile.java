@@ -10,6 +10,7 @@ public class FizzBuzzWhile {
         int i = 1;
 
         if (number > 0) {
+            // While loop is used to iterate from 1 to the input number, applying FizzBuzz rules to print "Fizz", "Buzz", "FizzBuzz", or the number itself, and increment i.
             while (i <= number) {
                 if (i % 3 == 0 && i % 5 == 0)
                     System.out.println("FizzBuzz");

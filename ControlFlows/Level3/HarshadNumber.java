@@ -11,6 +11,7 @@ public class HarshadNumber {
         int temp = number;
         int sum = 0;
 
+        // While loop is used to calculate the sum of digits by extracting each digit from the number and adding to sum, dividing temp by 10 each time.
         while (temp != 0) {
             sum += temp % 10;
             temp /= 10;

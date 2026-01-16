@@ -13,6 +13,7 @@ public class PrimeNumber {
         if (number <= 1) {
             isPrime = false;
         } else {
+            // For loop is used to check if the number is divisible by any integer from 2 to number/2, setting isPrime to false if a divisor is found and breaking the loop.
             for (int i = 2; i <= number / 2; i++) {
                 if (number % i == 0) {
                     isPrime = false;

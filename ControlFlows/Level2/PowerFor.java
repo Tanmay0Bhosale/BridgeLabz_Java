@@ -11,6 +11,7 @@ public class PowerFor {
 
         int result = 1;
 
+        // For loop is used to calculate the power by multiplying the result by the base number for each iteration up to the exponent.
         for (int i = 1; i <= power; i++) {
             result *= number;
         }

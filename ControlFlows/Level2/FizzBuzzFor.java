@@ -9,6 +9,7 @@ public class FizzBuzzFor {
         int number = input.nextInt();
 
         if (number > 0) {
+            // For loop is used to iterate from 1 to the input number, applying FizzBuzz rules to print "Fizz", "Buzz", "FizzBuzz", or the number itself.
             for (int i = 1; i <= number; i++) {
                 if (i % 3 == 0 && i % 5 == 0)
                     System.out.println("FizzBuzz");

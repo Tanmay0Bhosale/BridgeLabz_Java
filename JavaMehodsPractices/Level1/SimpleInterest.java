@@ -3,6 +3,7 @@ package JavaMehodsPractices.Level1;
 import java.util.Scanner;
 
 public class SimpleInterest {
+    // This method calculateSI is used to calculate the simple interest using the formula (principal * rate * time) / 100.
     static double calculateSI(double p, double r, double t) {
         return (p * r * t) / 100;
     }

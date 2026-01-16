@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ArrayIndexDemo {
 
+    // This method generateException is used to demonstrate generating an ArrayIndexOutOfBoundsException
     static void generateException(String[] arr) {
         System.out.println(arr[arr.length]);
     }

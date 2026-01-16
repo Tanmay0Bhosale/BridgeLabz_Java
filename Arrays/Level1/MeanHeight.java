@@ -8,6 +8,7 @@ public class MeanHeight {
         double[] heights = new double[11];
         double sum = 0;
 
+        // For loop is used to read the height of each of the 11 players from the user, store them in the array, and accumulate the sum for calculating the mean.
         for (int i = 0; i < heights.length; i++) {
             System.out.print("Enter height of player " + (i + 1) + ": ");
             heights[i] = sc.nextDouble();

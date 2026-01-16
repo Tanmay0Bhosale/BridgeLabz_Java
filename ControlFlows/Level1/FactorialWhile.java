@@ -12,6 +12,7 @@ public class FactorialWhile {
             int factorial = 1;
             int i = 1;
 
+            // While loop is used to calculate the factorial by multiplying the current factorial value with each integer from 1 to the input number, incrementing i each time.
             while (i <= number) {
                 factorial *= i;
                 i++;

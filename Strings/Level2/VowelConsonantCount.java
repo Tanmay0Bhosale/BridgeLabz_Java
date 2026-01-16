@@ -4,8 +4,10 @@ import java.util.Scanner;
 
 public class VowelConsonantCount {
 
+    // This method count is used to count the number of vowels and consonants in the input string
     static int[] count(String s) {
         int v = 0, c = 0;
+        // For loop is used to iterate through each character in the string and count vowels and consonants
         for (int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
             if (ch >= 'A' && ch <= 'Z') ch = (char)(ch + 32);

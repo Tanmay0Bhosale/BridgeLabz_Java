@@ -3,6 +3,7 @@ package JavaMehodsPractices.Level1;
 import java.util.Scanner;
 
 public class QuotientRemainder {
+    // This method findRemainderAndQuotient is used to calculate the quotient and remainder when dividing the number by the divisor.
     public static int[] findRemainderAndQuotient(int number, int divisor) {
         return new int[]{number / divisor, number % divisor};
     }

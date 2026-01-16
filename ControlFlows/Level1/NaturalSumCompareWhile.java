@@ -13,6 +13,7 @@ public class NaturalSumCompareWhile {
             int sumLoop = 0;
             int i = 1;
 
+            // While loop is used to calculate the sum of natural numbers from 1 to n by adding each number iteratively and incrementing i.
             while (i <= n) {
                 sumLoop += i;
                 i++;

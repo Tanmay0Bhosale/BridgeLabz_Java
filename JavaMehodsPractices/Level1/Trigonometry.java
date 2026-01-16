@@ -3,6 +3,7 @@ package JavaMehodsPractices.Level1;
 import java.util.Scanner;
 
 public class Trigonometry {
+    // This method calculateTrigonometricFunctions is used to calculate the sine, cosine, and tangent of the given angle in degrees.
     public static double[] calculateTrigonometricFunctions(double angle) {
         double rad = Math.toRadians(angle);
         return new double[]{

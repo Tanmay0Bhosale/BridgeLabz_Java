@@ -12,6 +12,7 @@ public class NaturalSumCompareFor {
             int sumFormula = n * (n + 1) / 2;
             int sumLoop = 0;
 
+            // For loop is used to calculate the sum of natural numbers from 1 to n by adding each number iteratively.
             for (int i = 1; i <= n; i++) {
                 sumLoop += i;
             }

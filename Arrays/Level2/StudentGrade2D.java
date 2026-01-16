@@ -11,6 +11,7 @@ public class StudentGrade2D {
         double[] percent = new double[n];
         char[] grade = new char[n];
 
+        // Nested for loops are used to read marks for physics, chemistry, and maths for each student, with validation for negative marks.
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 3; j++) {
                 marks[i][j] = sc.nextInt();
@@ -27,6 +28,7 @@ public class StudentGrade2D {
             else grade[i] = 'R';
         }
 
+        // For loop is used to print the percentage and grade for each student.
         for (int i = 0; i < n; i++)
             System.out.println(percent[i] + " " + grade[i]);
     }

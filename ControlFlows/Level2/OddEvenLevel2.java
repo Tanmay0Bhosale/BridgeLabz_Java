@@ -9,6 +9,7 @@ public class OddEvenLevel2 {
         int number = input.nextInt();
 
         if (number > 0) {
+            // For loop is used to iterate from 1 to the input number, check if each i is even or odd, and print the result.
             for (int i = 1; i <= number; i++) {
                 if (i % 2 == 0)
                     System.out.println(i + " is Even");
