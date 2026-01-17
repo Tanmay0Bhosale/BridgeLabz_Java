@@ -1,6 +1,9 @@
 package Keywords;
 
-
+/**
+ * The Book class represents a book with static library name, private title and author, and final ISBN.
+ * It demonstrates static, private, final keywords, and instanceof operator.
+ */
 class Book{
     private static String libraryName = "Blue Tokai Library";
 
@@ -14,10 +17,12 @@ class Book{
 
     }
 
+    // Static method to display the library name
     public static void displayLibraryName(){
         System.out.println("Library Name: " + libraryName);
     }
 
+    // Method to display book details with instanceof check
     public void  displayDetails(){
         if(this instanceof Book) {
             System.out.println("Book Title: " + title);
@@ -29,6 +34,9 @@ class Book{
     }
 }
 
+/**
+ * The LibraryManagement class demonstrates library book management using various Java keywords.
+ */
 public class LibraryManagement {
     public static void main(String[] args){
         Book.displayLibraryName();

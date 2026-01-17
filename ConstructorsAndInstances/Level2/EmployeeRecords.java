@@ -1,5 +1,9 @@
 package ConstructorsAndInstances.Level2;
 
+/**
+ * The EmployeeRecords class represents an employee with ID, department, and salary, using access modifiers.
+ * It provides methods to update and get salary, and includes a subclass Manager.
+ */
 public class EmployeeRecords {
 
     public int employeeID;
@@ -17,6 +21,7 @@ public class EmployeeRecords {
         this.salary = salary;
     }
 
+    // Getter for salary
     public double getSalary() {
         return salary;
     }
@@ -29,6 +34,7 @@ class Manager extends EmployeeRecords  {
         super(employeeID, department, salary);
     }
 
+    // Method to display manager details
     public void displayDetails() {
         System.out.println("Employee ID: " + employeeID +
                 ", Department: " + department);

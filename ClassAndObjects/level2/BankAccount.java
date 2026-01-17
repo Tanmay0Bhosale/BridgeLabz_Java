@@ -1,14 +1,20 @@
-package oopsprogrammingfundamentals.level2;
+package ClassAndObjects.level2;
 
+/**
+ * The BankAccount class represents a bank account with holder name, account number, and balance.
+ * It provides methods to deposit money, withdraw money (with balance check), and display the current balance.
+ */
 public class BankAccount {
     String accountHolder;
     int accountNumber;
     double balance;
 
+    // Method to deposit a specified amount into the account
     void deposit(double amount) {
         balance += amount;
     }
 
+    // Method to withdraw a specified amount if sufficient balance is available
     void withdraw(double amount) {
         if (amount <= balance)
             balance -= amount;
@@ -16,6 +22,7 @@ public class BankAccount {
             System.out.println("Insufficient balance");
     }
 
+    // Method to display the current balance
     void displayBalance() {
         System.out.println("Current Balance: " + balance);
     }

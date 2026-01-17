@@ -1,5 +1,9 @@
 package Keywords;
 
+/**
+ * The Patient class represents a patient with static hospital name and patient count, private fields, and final patient ID.
+ * It demonstrates static, private, final keywords, and instanceof operator.
+ */
 class Patient {
     public static String hospitalName = "SRM Global Hospital";
     private static int totalPatients = 0;
@@ -17,10 +21,12 @@ class Patient {
         totalPatients++;
     }
 
+    // Static method to get total number of patients
     public static int getTotalPatients() {
         return totalPatients;
     }
 
+    // Method to display patient details
     public void displayDetails() {
         System.out.println("Hospital: " + hospitalName);
         System.out.println("Name: " + name);
@@ -31,6 +37,9 @@ class Patient {
     }
 }
 
+/**
+ * The HospitalManagement class demonstrates hospital patient management using various Java keywords.
+ */
 public class HospitalManagement {
     public static void main(String[] args) {
         Patient p1 = new Patient("Yash", 25, "Fever", "P001");

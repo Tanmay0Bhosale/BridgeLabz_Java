@@ -1,6 +1,9 @@
 package ConstructorsAndInstances.Level1;
 
-// Book class represents a simple book entity
+/**
+ * The Book class represents a simple book entity with title, author, and price.
+ * It provides constructors for default and parameterized initialization, and a method to display book details.
+ */
 public class Book {
 
     // Instance variable to store the title of the book

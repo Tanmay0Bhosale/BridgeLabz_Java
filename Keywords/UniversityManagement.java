@@ -1,7 +1,9 @@
 package Keywords;
 
-
-
+/**
+ * The Student class represents a student with static university name and student count, private fields, and final roll number.
+ * It demonstrates static, private, final keywords, and instanceof operator.
+ */
 class Student{
     public static String universityName = "SRM University";
     private static int studentCount = 0;
@@ -17,6 +19,7 @@ class Student{
         studentCount++;
     }
 
+    // Method to display student details with instanceof check
     public void displayStudent(){
         if(this instanceof Student){
             System.out.println("Reg No: " + rollNumber);
@@ -29,11 +32,15 @@ class Student{
 
     }
 
+    // Static method to return total number of students
     public static int totalStudents(){
         return studentCount;
     }
 }
 
+/**
+ * The UniversityManagement class demonstrates university student management using various Java keywords.
+ */
 public class UniversityManagement {
     public static void main(String[] args){
         Student s1 = new Student("Aayush", 199, 'O');

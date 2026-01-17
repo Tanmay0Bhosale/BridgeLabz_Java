@@ -1,6 +1,9 @@
 package ConstructorsAndInstances.Level2;
 
-// Represents a bank account
+/**
+ * The BankAccount class represents a bank account with account number, holder name, and balance.
+ * It demonstrates access modifiers and includes a subclass SavingsAccount for inheritance example.
+ */
 public class BankAccount {
 
     // Public account number (accessible everywhere)

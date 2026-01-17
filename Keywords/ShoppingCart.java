@@ -1,5 +1,9 @@
 package Keywords;
 
+/**
+ * The Product class represents a product with static discount, private fields, and final product ID.
+ * It demonstrates static, private, final keywords, and instanceof operator, and calculates discounted price.
+ */
 class Product{
     private static double discount = 0.0;
 
@@ -16,10 +20,12 @@ class Product{
         this.productName = productName;
     }
 
+    // Static method to update the discount rate
     public static void updateDiscount(double newDiscount){
         discount = newDiscount;
     }
 
+    // Method to display product details with instanceof check and discount calculation
     public void displayDetails() {
         if (this instanceof Product) {
             System.out.println("Product ID: " + productId);
@@ -35,6 +41,9 @@ class Product{
 
 }
 
+/**
+ * The ShoppingCart class demonstrates shopping cart functionality using various Java keywords.
+ */
 public class ShoppingCart {
     public static void main(String[] args){
         Product p1 = new Product("Book", 12, 99, 887);

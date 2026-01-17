@@ -1,10 +1,15 @@
-package oopsprogrammingfundamentals.level1;
+package ClassAndObjects.level1;
 
+/**
+ * The MobilePhone class represents a mobile phone with brand, model, and price.
+ * It provides functionality to display the phone's details.
+ */
 public class MobilePhone {
     String brand;
     String model;
     double price;
 
+    // Method to display the mobile phone's details
     void displayDetails() {
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);

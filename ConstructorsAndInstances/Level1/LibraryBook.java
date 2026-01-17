@@ -1,6 +1,9 @@
 package ConstructorsAndInstances.Level1;
 
-// LibraryBook class represents a book in a library system
+/**
+ * The LibraryBook class represents a book in a library system with title, author, price, and availability status.
+ * It provides a constructor to initialize book details, methods to borrow the book and display details, and includes a nested Person class for demonstration.
+ */
 public class LibraryBook {
 
     // Instance variable to store book title

@@ -1,5 +1,9 @@
 package Keywords;
 
+/**
+ * The Employee class represents an employee with static company name and employee count, private fields, and final ID.
+ * It demonstrates static, private, final keywords, instanceof, and type casting.
+ */
 class Employee{
     static String companyName = "Capgemini";
     private static int empCount = 0;
@@ -14,6 +18,7 @@ class Employee{
         empCount++;
     }
 
+    // Static method to display employee details with instanceof check and casting
     public static void displayDetails(Object obj){
         if(obj instanceof Employee){
             Employee e = (Employee) obj;
@@ -25,11 +30,15 @@ class Employee{
         }
     }
 
+    // Static method to return total number of employees
     public static int displayTotalEmployees(){
         return empCount;
     }
 }
 
+/**
+ * The EmployeeManagement class demonstrates employee management using various Java keywords.
+ */
 public class EmployeeManagement {
     public static void main(String[] args){
         Employee e1 = new Employee("Aayush Gautam", 121, "Software Engineer");

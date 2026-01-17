@@ -1,6 +1,9 @@
 package ConstructorsAndInstances.Level2;
 
-
+/**
+ * The ProductInventory class represents a product with name and price, and tracks total products created using a static variable.
+ * It demonstrates instance and static methods.
+ */
 public class ProductInventory {
 
     // Instance variables
@@ -16,12 +19,12 @@ public class ProductInventory {
         totalProducts++;
     }
 
-    // Instance method
+    // Instance method to display product details
     public void displayProductDetails() {
         System.out.println("Product: " + productName + ", Price: INR " + price);
     }
 
-    // Class method
+    // Class method to display total products created
     public static void displayTotalProducts() {
         System.out.println("Total Products Created: " + totalProducts);
     }

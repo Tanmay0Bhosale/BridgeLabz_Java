@@ -1,6 +1,9 @@
 package ConstructorsAndInstances.Level2;
 
-
+/**
+ * The Vehicle class represents a vehicle with owner name, type, and a static registration fee.
+ * It demonstrates instance and static variables and methods.
+ */
 public class Vehicle {
     // Instance variables
     String ownerName;
@@ -14,13 +17,13 @@ public class Vehicle {
         this.vehicleType = vehicleType;
     }
 
-    // Instance method
+    // Instance method to display vehicle details
     public void displayVehicleDetails() {
         System.out.println(ownerName + " | " + vehicleType +
                 " | Fee: INR " + registrationFee);
     }
 
-    // Class method
+    // Class method to update the registration fee
     public static void updateRegistrationFee(double fee) {
         registrationFee = fee;
     }

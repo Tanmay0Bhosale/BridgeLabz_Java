@@ -1,5 +1,9 @@
 package ConstructorsAndInstances.Level2;
 
+/**
+ * The Book class represents a book with ISBN, title, and author, demonstrating access modifiers.
+ * It includes getter and setter for private author field, and a subclass EBook for inheritance.
+ */
 public class Book {
 
     public String ISBN;
@@ -12,11 +16,12 @@ public class Book {
         this.author = author;
     }
 
-    // Getter & Setter for private author
+    // Getter for private author field
     public String getAuthor() {
         return author;
     }
 
+    // Setter for private author field
     public void setAuthor(String author) {
         this.author = author;
     }
@@ -29,6 +34,7 @@ class EBook extends Book {
         super(ISBN, title, author);
     }
 
+    // Method to display accessible book details
     public void displayDetails() {
         System.out.println("ISBN: " + ISBN + ", Title: " + title);
     }

@@ -1,6 +1,9 @@
 package ConstructorsAndInstances.Level1;
 
-// CarRental class represents a car rental booking
+/**
+ * The CarRental class represents a car rental booking with customer name, car model, rental days, and cost per day.
+ * It provides a constructor to initialize rental details and methods to calculate total cost and display rental information.
+ */
 public class CarRental {
 
     // Instance variable to store the customer's name

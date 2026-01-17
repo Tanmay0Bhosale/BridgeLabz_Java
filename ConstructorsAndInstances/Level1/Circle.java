@@ -1,6 +1,9 @@
 package ConstructorsAndInstances.Level1;
 
-// Circle class represents a geometric circle
+/**
+ * The Circle class represents a geometric circle with a radius.
+ * It provides constructors for default and parameterized initialization, and a method to calculate the area.
+ */
 public class Circle {
 
     // Instance variable to store the radius of the circle

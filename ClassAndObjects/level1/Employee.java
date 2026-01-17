@@ -1,10 +1,15 @@
-package oopsprogrammingfundamentals.level1;
+package ClassAndObjects.level1;
 
+/**
+ * The Employee class represents an employee with attributes like name, ID, and salary.
+ * It provides functionality to display the employee's details.
+ */
 public class Employee {
     String name;
     int id;
     double salary;
 
+    // Method to display the employee's details
     void displayDetails() {
         System.out.println("Employee Name: " + name);
         System.out.println("Employee ID: " + id);

@@ -1,10 +1,15 @@
-package oopsprogrammingfundamentals.level1;
+package ClassAndObjects.level1;
 
+/**
+ * The Book class represents a book with basic attributes such as title, author, and price.
+ * It provides functionality to display the details of the book.
+ */
 public class Book {
     String title;
     String author;
     double price;
 
+    // Method to display the book's details
     void displayDetails() {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
