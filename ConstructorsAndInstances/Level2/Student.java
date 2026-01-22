@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level2;
+package constructorsandinstances.Level2;
 
 /**
  * The Student class represents a student with roll number, name, and CGPA, demonstrating access modifiers.

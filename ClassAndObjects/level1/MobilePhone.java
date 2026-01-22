@@ -1,4 +1,4 @@
-package ClassAndObjects.level1;
+package classandobjects.level1;
 
 /**
  * The MobilePhone class represents a mobile phone with brand, model, and price.

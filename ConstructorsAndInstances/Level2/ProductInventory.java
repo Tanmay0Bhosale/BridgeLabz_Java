@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level2;
+package constructorsandinstances.Level2;
 
 /**
  * The ProductInventory class represents a product with name and price, and tracks total products created using a static variable.

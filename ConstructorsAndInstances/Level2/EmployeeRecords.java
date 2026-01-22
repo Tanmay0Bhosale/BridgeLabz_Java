@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level2;
+package constructorsandinstances.Level2;
 
 /**
  * The EmployeeRecords class represents an employee with ID, department, and salary, using access modifiers.

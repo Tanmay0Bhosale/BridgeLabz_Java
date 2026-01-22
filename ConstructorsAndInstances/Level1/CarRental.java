@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level1;
+package constructorsandinstances.Level1;
 
 /**
  * The CarRental class represents a car rental booking with customer name, car model, rental days, and cost per day.

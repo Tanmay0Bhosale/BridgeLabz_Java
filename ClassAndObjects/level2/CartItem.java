@@ -1,4 +1,4 @@
-package ClassAndObjects.level2;
+package classandobjects.level2;
 
 /**
  * The CartItem class represents an item in a shopping cart with name, price, and quantity.

@@ -1,4 +1,4 @@
-package ClassAndObjects.level1;
+package classandobjects.level1;
 
 /**
  * The Book class represents a book with basic attributes such as title, author, and price.

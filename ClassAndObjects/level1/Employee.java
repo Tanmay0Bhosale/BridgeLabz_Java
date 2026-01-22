@@ -1,4 +1,4 @@
-package ClassAndObjects.level1;
+package classandobjects.level1;
 
 /**
  * The Employee class represents an employee with attributes like name, ID, and salary.

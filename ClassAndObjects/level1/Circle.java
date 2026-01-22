@@ -1,4 +1,4 @@
-package ClassAndObjects.level1;
+package classandobjects.level1;
 
 /**
  * The Circle class represents a circle with a given radius.

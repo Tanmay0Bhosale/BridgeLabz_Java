@@ -1,4 +1,4 @@
-package ClassAndObjects.level2;
+package classandobjects.level2;
 
 /**
  * The BankAccount class represents a bank account with holder name, account number, and balance.

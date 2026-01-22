@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level2;
+package constructorsandinstances.Level2;
 
 /**
  * The Vehicle class represents a vehicle with owner name, type, and a static registration fee.

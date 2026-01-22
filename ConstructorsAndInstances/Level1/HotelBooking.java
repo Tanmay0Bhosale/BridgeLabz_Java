@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level1;
+package constructorsandinstances.Level1;
 
 /**
  * The HotelBooking class represents a hotel booking with guest name, room type, and number of nights.

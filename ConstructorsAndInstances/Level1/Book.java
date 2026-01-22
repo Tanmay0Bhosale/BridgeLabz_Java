@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level1;
+package constructorsandinstances.Level1;
 
 /**
  * The Book class represents a simple book entity with title, author, and price.

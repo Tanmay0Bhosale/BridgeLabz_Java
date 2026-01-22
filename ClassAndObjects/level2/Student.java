@@ -1,4 +1,4 @@
-package ClassAndObjects.level2;
+package classandobjects.level2;
 
 /**
  * The Student class represents a student with name, roll number, and marks.

@@ -1,4 +1,4 @@
-package ClassAndObjects.level2;
+package classandobjects.level2;
 
 /**
  * The MovieTicket class represents a movie ticket with movie name, seat number, and price.

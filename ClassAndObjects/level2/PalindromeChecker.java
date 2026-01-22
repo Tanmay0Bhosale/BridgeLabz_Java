@@ -1,4 +1,4 @@
-package ClassAndObjects.level2;
+package classandobjects.level2;
 
 /**
  * The PalindromeChecker class checks if a given text is a palindrome.

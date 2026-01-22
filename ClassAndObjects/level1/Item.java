@@ -1,4 +1,4 @@
-package ClassAndObjects.level1;
+package classandobjects.level1;
 
 /**
  * The Item class represents an item with code, name, and price.

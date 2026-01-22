@@ -1,4 +1,4 @@
-package ConstructorsAndInstances.Level2;
+package constructorsandinstances.Level2;
 
 /**
  * The Course class represents a course with name, duration, fee, and a static institute name.
