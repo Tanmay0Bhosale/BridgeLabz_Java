@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * The Book class represents a book with static library name, private title and author, and final ISBN.

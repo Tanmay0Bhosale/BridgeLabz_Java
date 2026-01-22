@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * The Student class represents a student with static university name and student count, private fields, and final roll number.

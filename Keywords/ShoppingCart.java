@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * The Product class represents a product with static discount, private fields, and final product ID.

@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * The Vehicle class represents a vehicle with static registration fee, private owner and type, and final registration number.

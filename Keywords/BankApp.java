@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * The BankAccount class represents a bank account with static bank name and account count, private holder name, and final account number.

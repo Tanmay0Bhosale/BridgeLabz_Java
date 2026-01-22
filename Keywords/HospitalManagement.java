@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * The Patient class represents a patient with static hospital name and patient count, private fields, and final patient ID.

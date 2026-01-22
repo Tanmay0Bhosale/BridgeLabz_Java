@@ -1,4 +1,4 @@
-package Keywords;
+package keywords;
 
 /**
  * The Employee class represents an employee with static company name and employee count, private fields, and final ID.
