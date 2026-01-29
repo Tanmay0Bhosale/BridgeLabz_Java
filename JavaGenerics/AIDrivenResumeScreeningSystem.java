@@ -1,5 +1,4 @@
 import java.util.*;
-
 // Base JobRole class
 abstract class JobRole {
     abstract String getRole();
