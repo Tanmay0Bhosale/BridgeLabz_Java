@@ -32,5 +32,8 @@
 - **21-Jan-2026 (Wed):** Completed object modelling for the OOPS feature and standardized package naming conventions  
 - **22-Jan-2026 (Thu):** Solved and consolidated problems on Stack, Queue, HashMap, Sorting, and Linear & Binary Search algorithms and gave review
 - **23-Jan-2026(Fri):** Started Doing the OOPS Banner App Project
-- **24-Jan-2026(Sat):** Gave OOPS review and completed OOPS Banner APP till UC6 Feature"
-  
+- **24-Jan-2026(Sat):** Gave OOPS review and completed OOPS Banner APP till UC6 Feature
+- **27-Jan-2026(Tue):** Done with OOPS Banner APP and Started doing Java Collections and Streams
+- **28-Jan-2026(Wed):** Completed Java Generics from Collections and Streams, revising DSA for review
+- **29-Jan-2026(Thu):** Completed Collections and Started with Factory Robot hazard Analyzer
+- **30-Jan-2026(Fri):** Completed the Factory Robot Hazard Analyzer and Given DSA review
